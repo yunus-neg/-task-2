@@ -9,18 +9,22 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
 
     <title>yunus</title>
 </head>
 
 <body style="background-color: rgb(208, 245, 245) ">
-    <center class="mid">
-        <h1>hello</h1>
+    <canvas></canvas>
+    <canvas id='stage'></canvas>
+
+    <div class="absolute-center">
+        <h1>hello
+            <i class="	fa fa-lightbulb-o" style="font-size: 48px;cursor: pointer;color: yellow" onclick='document.documentElement.className == "xx" ? document.documentElement.className="":document.documentElement.className="xx"'></i>
+        </h1>
         <h4>my name is yunus
-            <br> i'm a devolper or at least i'll be </h4>
-        <img src="https://dl2.pushbulletusercontent.com/rzSavMQbZCUERNmo4i49kvekGEbrWuk1/2348b07e-074f-4d5b-adcc-5ef848f70cde.png"
-            alt="" width="9%" class="circle responsive-img z-depth-5">
-        <br>
+            <br> i'm a devolper or at least i'll be
+        </h4>
         <a href="https://github.com">
             <i class="fa fa-github" style="font-size: 48px;color: black"></i>
 
@@ -32,7 +36,8 @@
             <i class="fa fa-twitter" style="font-size: 48px;color: rgb(29, 202, 255);"></i>
         </a>
 
-    </center>
+    </div>
+    <script src="./index.js"></script>
 </body>
 
 </html>
