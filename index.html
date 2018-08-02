@@ -14,26 +14,28 @@
     <title>yunus</title>
 </head>
 
-<body style="background-color: rgb(208, 245, 245) ">
+<body>
     <canvas></canvas>
     <canvas id='stage'></canvas>
 
     <div class="absolute-center">
         <h1>hello
-            <i class="	fa fa-lightbulb-o" style="font-size: 48px;cursor: pointer;color: yellow" onclick='document.documentElement.className == "xx" ? document.documentElement.className="":document.documentElement.className="xx"'></i>
+            <i class="	fa fa-lightbulb-o" id="lamb" style="font-size: 48px;cursor: pointer;color: yellow" onclick='document.documentElement.className == "xx"
+            ? togglelight("on")
+            : togglelight("off");'></i>
         </h1>
         <h4>my name is yunus
             <br> i'm a devolper or at least i'll be
         </h4>
         <a href="https://github.com">
-            <i class="fa fa-github" style="font-size: 48px;color: black"></i>
+            <i class="fa fa-github" id="github" style="font-size: 48px;color: black"></i>
 
         </a>
         <a href="https://youtube.com">
-            <i class="fa fa-youtube" style="font-size: 48px;color: red;"></i>
+            <i class="fa fa-youtube" id="youtube" style="font-size: 48px;color: red;"></i>
         </a>
         <a href="https://twitter.com">
-            <i class="fa fa-twitter" style="font-size: 48px;color: rgb(29, 202, 255);"></i>
+            <i class="fa fa-twitter" id="twitter" style="font-size: 48px;color: rgb(29, 202, 255);"></i>
         </a>
 
     </div>
